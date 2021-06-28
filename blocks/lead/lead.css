@@ -1,0 +1,22 @@
+.lead {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1097px) {
+  .lead {
+    max-width: calc(100% - 48px*2);
+    /* В курсе, что по размеру не соответствует макету по погрешности в 30px, но сделал так, ибо из-за появления
+    вертикального скролл-бара при ширине блока в 950px оставалось слишком мало места для margin и картинка очень явно
+    была шире шапки*/
+  }
+}
+@media screen and (max-width: 970px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+
