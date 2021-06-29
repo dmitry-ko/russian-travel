@@ -1,0 +1,25 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px 4%;
+  margin-top: 80px;
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 970px) {
+  .place {
+    margin-top: 73px;
+  }
+}
+
+@media screen  and (max-width: 700px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 50px;
+  }
+}
