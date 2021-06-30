@@ -5,6 +5,8 @@
   text-decoration-line: underline;
   transition: opacity .2s linear;
   color: white;
+  margin: 12px 0 0;
+  padding: 0;
 }
 
 .place__link:hover {
