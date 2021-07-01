@@ -31,6 +31,6 @@
 
 **Ссылка на проект**
 
-* [GitHub Pages](https://dmitry-ko.github.io/russian-travel/)
+* [GitHub Pages](https://dmitry-ko.github.io/russian-travel/index.html)
 
 
