@@ -9,6 +9,7 @@
   .element-title_position_cover {
     font-size: 32px;
     line-height: 35px;
+    /* Указан в пикселях для корректного высчитывания margin*/
     max-width: 288px;
     margin: calc(((100%/1.6) - 134px)/2) auto 0;
   }
