@@ -1,0 +1,14 @@
+.list_position_footer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .list_position_footer {
+    flex-direction: column;
+    gap: 32px;
+    align-items: start;
+  }
+}
