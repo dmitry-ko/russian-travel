@@ -1,12 +1,12 @@
 @media screen and (max-width: 970px) {
-  .element-title_position_place {
+  .place__title {
     font-size: 42px;
     line-height: 1.1;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .element-title_position_place {
+  .place__title {
     font-size: 32px;
     margin: 0 16px 0;
   }

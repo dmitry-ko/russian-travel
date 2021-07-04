@@ -5,8 +5,8 @@
 
 @import "../blocks/header/header.css";
 @import "../blocks/list/list.css";
-@import "../blocks/list/_position/list_position_header.css";
-@import "../blocks/list-item/list-item.css";
+@import "../blocks/list/_theme/list_theme_lang-list.css";
+@import "../blocks/list/__item/list__item.css";
 @import "../blocks/link/link.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-links/header__lang-links.css";
@@ -24,9 +24,9 @@
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
-@import "../blocks/list/_position/list_position_intro.css";
+@import "../blocks/list/_theme/list_theme_texts.css";
 @import "../blocks/intro/__list-text/intro__list-text.css";
-@import "../blocks/intro/__list-text/_weight/intro__list-text_weight_normal.css";
+@import "../blocks/intro/__list-number/intro__list-number.css";
 
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__inner/photo-grid__inner.css";
@@ -36,7 +36,7 @@
 @import "../blocks/places/places.css";
 @import "../blocks/place/place.css";
 @import "../blocks/element-title/element-title.css";
-@import "../blocks/element-title/_position/element-title_position_place.css";
+@import "../blocks/place/__title/place__title.css";
 @import "../blocks/place/__website/place__website.css";
 @import "../blocks/place/__url-heading/place__url-heading.css";
 @import "../blocks/place/__link/place__link.css";
@@ -46,12 +46,12 @@
 
 @import "../blocks/cover/cover.css";
 @import "../blocks/cover/__link/cover__link.css";
-@import "../blocks/element-title/_position/element-title_position_cover.css";
+@import "../blocks/cover/__title/cover__title.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__links/footer__links.css";
-@import "../blocks/list/_position/list_position_footer.css";
+@import "../blocks/list/_theme/list_theme_links.css";
 @import "../blocks/footer/__link/footer__link.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
 
